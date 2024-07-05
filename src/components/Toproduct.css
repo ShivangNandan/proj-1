@@ -1,0 +1,40 @@
+.scroll-wrapper {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  width: 100%;
+  position: relative; /* Ensure proper positioning for child elements */
+}
+
+.top-product-section {
+  padding: 40px 20px;
+  width: 100%; /* Adjusted to 100% for responsive design */
+  height: 350px;
+  background-color: #000000; /* Background color for the section */
+  text-align: center;
+  overflow-x: auto; /* Allows horizontal scrolling */
+  white-space: nowrap; /* Prevent wrapping for child elements */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.section-title {
+  font-size: 2em;
+  color: #ffffff;
+  left: 200px;
+}
+
+.products-container {
+  display: inline-flex; /* Inline-flex for better horizontal scrolling */
+  justify-content: center;
+  gap: 20px;
+  white-space: normal; /* Reset white-space to normal if needed */
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.top-product-section::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* Hide scrollbar for Firefox */
+.top-product-section {
+  scrollbar-width: none; /* Hide scrollbar */
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+}

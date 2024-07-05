@@ -1,0 +1,68 @@
+
+.hero {
+  padding: 100px 0px 0px 50px; /* Adjust padding as needed */ /* Example background color */
+  color: #ffffff;
+  opacity: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.l1 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.l11{
+  color: #f56600;
+}
+.l2 {
+  font-size: 80px;
+  font-family: 'prosto one';
+  display: flex;
+  flex-direction: column;
+}
+
+.l221 {
+  color: #e16d0d;
+}
+
+.l4 {
+   /* Adjust spacing */
+  font-family: sans-serif;
+  line-height: 1.5;
+  
+}
+
+.l5 {
+  font-weight: bold;
+  /* Adjust spacing */
+  
+}
+
+.price {
+  color: #ff6200; /* Example price color */
+  margin-left: 5px; /* Adjust spacing */
+}
+
+.buttons {
+  margin-top: 20px; /* Adjust spacing */
+}
+
+.shop-button, .view-button {
+  background-color: #ff6200; /* Example button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 10px; /* Adjust spacing */
+}
+
+.shop-button:hover, .view-button:hover {
+  background-color: #e5deda; /* Example hover color */
+  color: orangered;
+}
+.l6{
+  font-size: 24px;
+  font-weight: bold;
+}

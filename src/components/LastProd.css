@@ -1,0 +1,23 @@
+.LastProd{
+  display: flex;
+  padding: 40px 0 40px 0;
+}
+.LastProd {
+  animation: marquee 15s linear infinite;
+}
+.marquee-text {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 4em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+@keyframes LastProd {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

@@ -1,0 +1,27 @@
+
+img{
+  height: 350px;
+  background-color: black;
+}
+.Lastcard{
+  padding: 15px;
+  background-color: black;
+  border: 0px solid rgb(92, 92, 92);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.lastText{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  gap: 30px;
+}
+h5:hover{
+  cursor: pointer;
+  color: #ff6200;
+  transition: color 0.3s;
+}
+.title{
+  color: rgb(255, 255, 255);
+}

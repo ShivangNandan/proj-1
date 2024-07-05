@@ -1,0 +1,12 @@
+.foot {
+  color: aliceblue;
+}
+
+h5, a {
+  color: #ffffff;
+}
+.containerr{
+  padding-top: 40px;
+  padding-left: 20px;
+  border-top: 2px solid rgb(153, 147, 147);
+}

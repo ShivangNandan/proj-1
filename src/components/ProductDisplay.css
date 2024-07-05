@@ -1,0 +1,99 @@
+/* src/ProductDisplay.css */
+
+.product-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 50px 70px 70px;
+  background-color: #000;
+  color: #fff;
+}
+
+.discount-banner {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.discount-text {
+  color: #fff;
+  font-size: 20px;
+}
+
+.product-info {
+  max-width: 50%;
+  margin-right: 20px;
+}
+
+.product-info h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  margin-right: 10px;
+  color: #999;
+}
+
+.discounted-price {
+  font-size: 2em;
+  color: #ff4500;
+}
+
+.features {
+  padding: 0;
+  margin: 20px 0;
+}
+
+.features li {
+  margin-bottom: 5px;
+}
+
+.countdown {
+  margin-top: 20px;
+}
+
+.timer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.timer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.timer-value {
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.timer-label {
+  font-size: 0.8em;
+  color: #999;
+}
+
+.product-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.product-image img {
+  max-width: 100%;
+  border-radius: 50%;
+  border: 10px solid #000;
+  background-color: #000;
+}
